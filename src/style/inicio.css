@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+}
+.inicio{
+    background-image: url(../img/logo_inicio.jpeg) ;
+    background-size: cover;
+    height:100vh;
+    position: absolute;
+    top: -210px;
+    width:100%;
+    margin: auto;
+    z-index: -99;
+    color: #fff;
+    text-align: center;
+}
+
+
+.texto_inicio{
+    font-size: 1.5rem;
+    margin: auto;
+    width: 40%;
+    margin-top: 472px;
+
+}
+
+.texto_inicio h1{
+    font-size: 3rem;
+}
+
+.suscribeteinicio{ 
+    background-color: #2b2b2b;
+    width:100%;
+    height:11vh;
+    display:flex;
+    position: relative;
+    top: 68vh;
+}
+.suscribeteinicio{
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    bottom: 278px;
+    height: 11vh;
+    display: flex;
+}
+
+.texto_suscribete{
+    line-height:90px;
+    width: 35%;
+    padding-left: 120px;
+    color: #fff;
+}
+.texto_suscribete p{
+    font-size: 2rem;
+}
+.input_suscribete{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 200px;
+}
+button{
+    height: 4.5vh;
+    color: #fff;
+    background-color: orangered;
+    border: none;
+    width: auto;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(255, 38, 0);
+}
+.input_suscribete input[type=text]{
+    background-color: #ffff;
+    border: 1px solid #000;
+    height: 4vh;
+    width: 25%;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 2px;
+    font-size: 1.2rem;
+}
+.lenguajes{
+    display: flex;
+    position: relative;
+    top: 69vh;
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 56vh;
+}
+.html{
+    width:30%;
+    padding: 3%;
+    text-align: center;
+}
+.html p{
+    color: #000;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.html img{
+    margin-bottom: 20px;
+}
+.css{
+    width:30%;
+    padding: 3%;
+    text-align: center;
+}
+.css p{
+    color: #000;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.css img{
+    margin-bottom: 20px;
+}
+.diseño_grafico{
+    width:30%;
+    padding: 3%;
+    text-align: center;
+}
+.diseño_grafico p{
+    color: #000;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.diseño_grafico img{
+    margin-bottom: 20px;
+}

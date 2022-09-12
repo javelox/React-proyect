@@ -1,0 +1,309 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:roboto,sans-serif;
+}
+
+
+body{
+  position: relative;
+  padding-bottom: 20vh;
+  min-height: 100vh;
+}
+
+nav label{
+  font-size: 2.5rem;
+}
+
+
+nav{
+  background-color: #000000;
+  border-bottom: 5px solid rgb(0, 132, 255);
+  height:10vh;
+  color: #fff;
+  font-size:1.5rem;
+  text-decoration: none;
+  padding:1px 100px;
+  margin: 0 auto;    
+  line-height:90px;
+  display: flex;
+  justify-content:space-between;
+}
+
+strong{
+  color:rgb(0, 132, 255);
+}
+
+nav a{
+  color: #fff;
+  text-decoration:none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav a:hover{
+  border-bottom: 1px solid #fff;
+  color: rgb(189, 189, 189);
+}
+
+
+/* SECTION INICIO */
+
+/* .inicio{
+  background-image: url(../src/img/logo_inicio.jpeg) ;
+  background-size: cover;
+  height:100vh;
+  position: absolute;
+  top: -210px;
+  width:100%;
+  margin: auto;
+  z-index: -99;
+  color: #fff;
+  text-align: center;
+}
+
+.texto_inicio{
+  margin: auto;
+  width: 40%;
+  margin-top: 500px;
+}
+h1{
+
+  color:#fff;
+  font-size:5rem;
+}
+p{
+  font-size:1rem;
+  color:#fff;
+} */
+
+/* DIV SUSCRIBETE */
+
+/* .suscribete{
+  background-color: #2b2b2b;
+  width:100%;
+  position: absolute;
+  bottom: 120px;
+  height:11vh;
+  display:flex;
+}
+
+.texto_suscribete{
+  line-height: 90px;
+  width: 35%;
+  padding-left: 120px;
+}
+
+.texto_suscribete h2{
+  font-size:2rem;
+  color: #fff;
+}
+
+.input_suscribete{
+  width: 100%;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  margin-right: 200px;
+}
+
+button{
+  height:4.5vh;
+  color: white;
+  background-color:orangered;
+  border:none;
+  width: auto;
+  font-size:1.2rem;
+  border-radius:5px;
+}
+button:hover{
+  background-color: rgb(255, 38, 0);
+}
+
+.input_suscribete input[type=text]{
+  background-color:#fff;
+  border: 1px solid black;
+  height:4vh;
+  width:25%;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding:2px;
+  font-size:1.2rem;
+}
+
+.lenguajes{
+  display:flex;
+  position: absolute;
+  bottom: -481px;
+  height:50vh;
+  width: 100%;
+  background-color:#fff;
+}
+.html{
+  width: 30%;
+  padding:3%;
+  text-align: center;
+}
+.html p{
+  padding-left: 100px;
+  padding-right: 100px;
+  color:#000;
+
+}
+.html img{
+  margin-bottom: 20px;
+}
+
+.css{
+  width: 30%;
+  padding:3%;
+  text-align: center;
+}
+.css p{
+  padding-left: 100px;
+  padding-right: 100px;
+  color:#000;
+
+}
+.css img{
+  margin-bottom: 20px;
+}
+
+
+.diseño_grafico{
+  width: 30%;
+  padding:3%;
+  text-align: center;
+}
+.diseño_grafico p{
+  padding-left: 100px;
+  padding-right: 100px;
+  color:#000;
+
+}
+.diseño_grafico img{
+  margin-bottom: 20px;
+} */
+
+
+footer{
+  color:#FFF;
+  display: flex;
+  justify-content: center;
+  background-color:rgb(0, 162, 255);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+}
+
+
+
+/* .footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+/* @media only screen and (max-width: 556px) {
+  .lenguajes{
+      display: inline-block;
+
+  }
+  .diseño_grafico p{
+      padding-left: 100px;
+  
+  }
+
+} */
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1400px) {
+
+
+
+nav{
+  height:20vh;
+  flex-direction: column;
+}
+nav a{
+  padding: 0;
+  padding-right: 10px;
+}
+
+.diseño_grafico p{
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.html p{
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.css p{
+  padding-left:50px;
+  padding-right:50px;
+}
+}
+
+@media only screen and (max-width: 1150px) {
+h1{
+  font-size:4rem;
+}
+}
+
+@media only screen and (max-width: 960px){
+  .lenguajes{
+      flex-direction: column;
+      
+  }
+  .html{
+      margin: auto;
+      width:60%;
+  }
+  .css{
+      margin: auto;
+      width:60%;
+  }
+  .diseño_grafico{
+      margin: auto;
+      width:60%;
+  }
+  .input_suscribete{
+      margin-right: 25px;
+      
+  }
+  .input_suscribete input[type=text]{
+      width:50%;
+  }
+}
+
+@media only screen and (max-width: 650px){
+
+  .texto_inicio{
+      width: 100%;
+  }
+  nav{
+      line-height: 36px;
+      padding: 0;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .texto_suscribete{
+      width: 90%;
+      padding:0px;
+      line-height:50px;
+  }
+  .suscribete{
+      flex-direction: column;
+  }
+
+  .input_suscribete{
+display:block;
+text-align:center;
+  }
+}
