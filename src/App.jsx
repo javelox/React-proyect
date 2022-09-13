@@ -6,6 +6,7 @@ import Nosotros from './pages/Nosotros'
 import Servicios from './pages/Servicios'
 import './App.css'
 import Inicio from './pages/inicio'
+import Contacto from './pages/Contacto'
 
 const App = () => {
 
@@ -18,6 +19,8 @@ const App = () => {
             <Route path='/' element={<Inicio/>} />
             <Route path='/Nosotros' element={<Nosotros/>} />
             <Route path='/Servicios' element={<Servicios/>} />
+            <Route path='/Contacto' element={<Contacto/>} />
+            
         </Routes>
       
       <Footer/>
