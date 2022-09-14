@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Nosotros from './pages/Nosotros'
 import Servicios from './pages/Servicios'
 import './App.css'
-import Inicio from './pages/inicio'
+import Inicio from './pages/Inicio'
 import Contacto from './pages/Contacto'
 
 const App = () => {
