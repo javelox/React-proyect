@@ -1,12 +1,12 @@
-.tituloservicios{
+.tituloservicios {
     position: relative;
-    top: 15vh;
+    top: 18vh;
     left: 24vh;
     width: 7vw;
     font-size: 1.4rem;
 }
 
-.servicio{
+.servicio {
     position: relative;
     top: 20vh;
     margin-left: 24vh;
@@ -17,7 +17,7 @@
     margin-top: 20px;
 }
 
-.servicio h3{
+.servicio h3 {
     padding-top: 20px;
 
     font-size: 1.9rem;
@@ -26,76 +26,121 @@
 
 /* TEXTOS SERVICIOS */
 
-    /* QUEHACEMOS */
-    .quehacemos{
+/* QUEHACEMOS */
+.quehacemos {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 25%;
+    position: relative;
+    right: 150px;
+    background-color: #364050;
+    color: #fff;
+    top: 18vh;
+}
+
+.quehacemos h3 {
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 1.9rem;
+    padding-bottom: 20px;
+}
+
+.parrafo_quehacemos {
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* DISEÑOWEB */
+
+.diseñoweb {
+    margin-top: 0px;
+}
+
+
+.parrafo_diseñoweb {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: auto;
+    padding-right: 25px;
+
+}
+
+
+/* DESARROLLOWEB */
+.desarrolloweb {
+    margin-top: 20px;
+}
+
+.parrafo_desarrolloweb {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: auto;
+    padding-right: 25px;
+}
+
+/* PRECIO */
+.precio {
+    margin-top: 5vh;
+    padding-bottom: 20px;
+}
+
+.hostingweb {
+    margin-bottom: 15vh;
+}
+
+.parrafo_hostingweb {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    width: auto;
+    padding-right: 25px;
+}
+
+@media only screen and (max-width:680px) {
+    .quehacemos {
+        width: auto;
+        float: none;
+        right: inherit;
+        top: 25vh;
+    }
+
+    .tituloservicios {
         display: flex;
-        flex-direction: column;
-        float: right;
-        width:20%;
         position: relative;
-        right: 235px;
-        background-color:#364050;
-        color:#fff;
-        top: 18vh;
-    }
-    .quehacemos h3{
+        top: 24vh;
+        font-size: 1.4rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         padding-top: 20px;
-        padding-left: 15px;
-        font-size: 1.9rem;
         padding-bottom: 20px;
+        left: 0;
+        width: 100%;
     }
 
-    .parrafo_quehacemos{
-        padding-top:25px;
-        padding-right: 20px;
-        padding-left: 15px;
-        padding-bottom: 15px;
+    .Titulo_servicios {
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        left: 0;
     }
 
-
-    /* DISEÑOWEB */
-
-    .diseñoweb{
-        margin-top: 0px;
-    }
-
-    
-    .parrafo_diseñoweb{
+    .servicio {
+        position: relative;
+        top: 20vh;
+        margin-left: 0;
+        background-color: #E6E6E6;
+        width: auto;
+        padding-left: 3vh;
         padding-top: 25px;
-        padding-bottom: 20px;
-        width:auto;
-        padding-right: 25px;    
-    }
-    .parrafo_diseñoweb p{
-        color: #000000;
-    }
-
-    
-    /* DESARROLLOWEB */
-    .desarrolloweb{
         margin-top: 20px;
     }
-    
-    .parrafo_desarrolloweb{
-        padding-top: 25px;
-        padding-bottom: 20px;
-        width:auto;
-        padding-right: 25px;
-    }
-    .parrafo_desarrolloweb p{
-        color: #000000;
-    }
-
-    /* PRECIO */
-    .precio{
-        padding-bottom: 21px;
-        margin-top: 5vh;
-    }
-    
-    .hostingweb{
-        margin-bottom: 13vh;
-    }
-    .hostingweb p{
-        color: #000000;
-    }
-
+}

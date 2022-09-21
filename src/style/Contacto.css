@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.contacto {
+    position: relative;
+    top: 16vh;
+    margin-left: 22vh;
+    background-color: #fff;
+    width: 44.3%;
+    padding-left: 3vh;
+    padding-top: 25px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.contacto input {
+    width: 48vw;
+    height: 5vh;
+    font-size: 1.3rem;
+}
+
+.contacto textarea {
+    font-size: 1.3rem;
+}
+
+.contacto button {
+    width: 48.3vw;
+    font-size: 1.5rem;
+}
+
+.mapa {
+    position: relative;
+    bottom: 30vh;
+    left: 144vh;
+    width: fit-content;
+}
+
+
+@media only screen and (max-width:680px) {
+
+    .contacto{
+        margin: auto;
+        padding: 0;
+        top: 20vh;
+    }
+
+    .mapa{
+        bottom: 0;
+        top: 25vh;
+        left: 0;
+        box-sizing: border-box;
+        margin: auto;
+        margin-bottom: 25vh;
+    }
+
+    .formulario{
+        margin: auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}

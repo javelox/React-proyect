@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.inicio {
+    background-image: url(../img/logo_inicio.jpeg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    top: -150px;
+    width: 100%;
+    margin: auto;
+    z-index: -99;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_inicio {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 9vh;
+}
+
+.texto_inicio h1 {
+    font-size: 5.5rem;
+    width: max-content;
+}
+
+.texto_inicio p {
+    font-size: 2.3rem;
+    width: fit-content;
+}
+
+.suscribeteinicio {
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    position: relative;
+    top: -16vh;
+    color: red;
+}
+
+.texto_suscribete {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.input_suscribete {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-right: 20vh;
+    box-sizing: border-box;
+}
+
+.lenguajes {
+    display: grid;
+    gap: 7vw;
+    grid-auto-flow: dense;
+    grid-auto-rows: 28rem;
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 5fr));
+    width: 100%;
+    margin: auto;
+}
+
+
+.lenguaje {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.lenguajes h2 {
+    font-size: 2rem;
+}
+
+.lenguajes p {
+    text-align: justify;
+    font-size: 1.3rem;
+    color: #000;
+
+}
+
+.lenguaje img {
+    margin-bottom: 20px;
+}
+
+.html{
+    padding-left: 2vw;
+}
+
+.diseño_grafico{
+    padding-right: 2vw;
+}
+
+
+
+@media only screen and (max-width:1200px) {
+    .inicio {
+        top: -65px;
+    }
+
+    .texto_inicio h1 {
+        width: 90vw;
+        margin-bottom: 5vh;
+    }
+
+    .texto_inicio p {
+        width: 80vw;
+    }
+
+    .lenguajes {
+        flex-direction: column;
+    }
+
+    .html {
+        padding: 0;
+        width: auto;
+    }
+
+    .html p {
+        width: fit-content;
+        padding: 0;
+    }
+
+    .css {
+        width: auto;
+    }
+
+    .css p {
+        width: fit-content;
+        padding: 0;
+    }
+
+    .diseño_grafico {
+        padding: 0;
+        width: auto;
+    }
+
+    .diseño_grafico p {
+        width: fit-content;
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width:960px) {
+
+    .lenguajes {
+        flex-direction: column;
+    }
+
+    .html p {
+        padding: 0px;
+        text-align: justify;
+    }
+
+    .html {
+        margin: auto;
+        width: 90%;
+    }
+
+    .css p {
+        padding: 50px;
+        text-align: justify;
+    }
+
+    .css {
+        margin: auto;
+        width: 90%;
+    }
+
+    .diseño_grafico p {
+        padding: 50px;
+        text-align: justify;
+    }
+
+    .diseño_grafico {
+        margin: auto;
+        width: 90%;
+
+    }
+
+    .inicio {
+        top: -110px;
+    }
+
+    .texto_inicio {
+        width: 93%;
+        top: 15vh;
+
+    }
+
+    .texto_suscribete {
+        width: 57%;
+        padding: 0;
+    }
+
+    .input_suscribete {
+        margin-right: 65px;
+    }
+
+    .input_suscribete input[type=text] {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:830px) {
+
+    .suscribeteinicio {
+        top: -18vh;
+    }
+
+    .texto_suscribete {
+        width: 42%;
+    }
+
+    .input_suscribete {
+        margin-right: 0px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:650px) {
+    .suscribeteinicio {
+        flex-direction: column;
+        height: 16vh;
+        line-height: 10vh;
+    }
+
+    .texto_suscribete {
+        width: 90%;
+    }
+
+    .input_suscribete {
+        margin-right: 0;
+    }
+
+    .input_suscribete input[type=text] {
+        width: 55%;
+    }
+
+    button {
+        margin-right: 60px;
+    }
+
+    .html p {
+        padding: 0;
+        text-align: justify;
+    }
+
+    .html {
+        margin: auto;
+        width: 90%;
+    }
+
+    .css p {
+        padding: 0;
+        text-align: justify;
+    }
+
+    .css {
+        margin: auto;
+        width: 90%;
+    }
+
+    .diseño_grafico p {
+        padding: 0;
+        text-align: justify;
+    }
+
+    .diseño_grafico {
+        margin: auto;
+        width: 90%;
+
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    .texto_inicio {
+        top: 6vh;
+    }
+
+    .suscribeteinicio {
+        top: -17vh;
+        height: 150px;
+        line-height: normal;
+    }
+
+    .texto_suscribete {
+        width: 100%;
+        text-align: center;
+    }
+
+    .input_suscribete {
+        width: auto;
+        box-sizing: border-box;
+        padding-top: 2vh;
+    }
+
+    button {
+        margin-right: 0px;
+    }
+
+    .lenguajes {
+
+        gap: 60px;
+    }
+
+    .lenguaje {
+        margin: auto;
+        width: 90%;
+    }
+
+    .lenguaje p {
+        padding: 0;
+        text-align: justify;
+    }
+
+    .texto_inicio p {
+        text-align: justify;
+        padding: 15px;
+        font-size: 1.3rem;
+    }
+
+    .texto_inicio h1 {
+        font-size: 2.5rem;
+    }
+}
